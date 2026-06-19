@@ -1,0 +1,164 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Segoe UI,sans-serif;
+}
+
+body{
+  background:#eef4ff;
+}
+
+/* LOGIN */
+
+.login-container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#2563eb,#60a5fa);
+}
+
+.login-card{
+  width:380px;
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.login-card h1{
+  color:#2563eb;
+  margin-bottom:10px;
+}
+
+.login-card p{
+  color:gray;
+  margin-bottom:20px;
+}
+
+.login-card input{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border:1px solid #ddd;
+  border-radius:10px;
+}
+
+.login-card button{
+  width:100%;
+  padding:12px;
+  background:#2563eb;
+  color:white;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+/* NAVBAR */
+
+.navbar{
+  background:white;
+  padding:20px 50px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.navbar h2{
+  color:#2563eb;
+}
+
+/* HERO */
+
+.hero{
+  text-align:center;
+  padding:50px 20px;
+}
+
+.hero h1{
+  color:#1e3a8a;
+  font-size:48px;
+}
+
+.hero p{
+  color:#666;
+  margin-top:10px;
+}
+
+/* DASHBOARD */
+
+.dashboard{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+}
+
+.card{
+  width:250px;
+  background:white;
+  padding:25px;
+  text-align:center;
+  border-radius:15px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h2{
+  color:#2563eb;
+  font-size:35px;
+}
+
+/* TRACK */
+
+.track-section{
+  display:flex;
+  justify-content:center;
+  margin-top:40px;
+  gap:10px;
+}
+
+.track-section input{
+  width:350px;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:8px;
+}
+
+.track-section button{
+  padding:12px 25px;
+  border:none;
+  background:#2563eb;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+/* RESULT */
+
+.result-card{
+  width:500px;
+  margin:30px auto;
+  background:white;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.result-card h3{
+  color:#2563eb;
+  margin-bottom:15px;
+}
+
+.result-card p{
+  margin:8px 0;
+}
+
+.not-found{
+  width:400px;
+  margin:30px auto;
+  padding:15px;
+  background:#fee2e2;
+  color:#dc2626;
+  text-align:center;
+  border-radius:10px;
+}
